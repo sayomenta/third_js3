@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.check-in {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: #4c7faf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.check-in:hover {
+  background-color: #3b83a0;
+}
+
+.one {
+  background-color: #a136e7;
+}
+
+.two {
+  background-color: #ffdc42;
+}
+
+.task {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.task h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.answer {
+  background-color: #f0f0f0;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin: 0;
+}
